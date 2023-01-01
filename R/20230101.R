@@ -48,10 +48,16 @@ p <- ggplot() +
     legend.position = "none",
     plot.background = element_rect(fill = "#131313", colour = "#131313"))
 
-p_anim <- animate(
+p_anim_large <- animate(
   p, fps = 30, height = 10, width = 10, units = "cm", res = 300)
+
+p_anim_small <- animate(
+  p, fps = 30, height = 7, width = 7, units = "cm", res = 200)
 
 # Save to file -----------------------------------------------------------------
 
 anim_save(
-  filename = "20230101.gif", p_anim, path = here::here("img/"))
+  filename = "20230101.gif", p_anim_large, path = here::here("img/"))
+
+anim_save(
+  filename = "20230101_small.gif", p_anim_small, path = here::here("img/"))
