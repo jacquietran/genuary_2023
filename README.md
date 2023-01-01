@@ -10,7 +10,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 
 | Day | Prompt | Link to piece |
 |---|---|---|
-| 01 | Perfect loop / Infinite loop / endless GIFs | |
+| 01 | Perfect loop / Infinite loop / endless GIFs | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230101.gif) |
 | 02 | Made in 10 minutes | |
 | 03 | Glitch art | |
 | 04 | Intersections | |
