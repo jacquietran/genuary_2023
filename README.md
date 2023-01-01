@@ -8,10 +8,43 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 
 ## My pieces
 
-TBC - yet to start!
+| Day | Prompt | Link to piece |
+|---|---|---|
+| 01 | Perfect loop / Infinite loop / endless GIFs | |
+| 02 | Made in 10 minutes | |
+| 03 | Glitch art | |
+| 04 | Intersections | |
+| 05 | Debug view | |
+| 06 | Steal like an artist | |
+| 07 | Sample a color palette from your favorite movie/album cover | |
+| 08 | Signed distance functions | |
+| 09 | Plants | |
+| 10 | Generative music | |
+| 11 | Suprematism | |
+| 12 | Tesselation | |
+| 13 | Something you’ve always wanted to learn | |
+| 14 | Aesemic | |
+| 15 | Sine waves | |
+| 16 | Reflection of a reflection | |
+| 17 | A grid inside a grid inside a grid | |
+| 18 | Definitely not a grid | |
+| 19 | Black and white | |
+| 20 | Art deco | |
+| 21 | Persian rug | |
+| 22 | Shadows | |
+| 23 | More Moiré | |
+| 24 | Textile | |
+| 25 | Yayoi Kusama | |
+| 26 | My kid could have made that | |
+| 27 | In the style of Hilma Af Klint | |
+| 28 | Generative poetry | |
+| 29 | Maximalism | |
+| 30 | Minimalism | |
+| 31 | Deliberately break one of your previous images, take one of your previous works and ruin it. Alternatively, remix one of your previous works. | |
 
-## Notable inspirations and new skills
+## Notable inspirations and techniques
 
 | Day | Links | Credit |
 |---|---|---|
-| TBC | TBC | TBC |
+| 01 | `gganimate` package: https://gganimate.com/ | [Thomas Lin Pedersen](https://www.data-imaginist.com/) |
+| | `ggforce` package: https://ggforce.data-imaginist.com/ | [Thomas Lin Pedersen](https://www.data-imaginist.com/) |
