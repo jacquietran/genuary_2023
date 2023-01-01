@@ -32,15 +32,15 @@ p <- ggplot() +
   geom_point(
     data = spiro_bg1_data, 
     aes(x = x, y = y),
-    colour = "#44BBA4", size = 2) +
+    colour = "#44BBA4", size = 2, shape = 16) +
   geom_point(
     data = spiro_bg2_data, 
     aes(x = x, y = y),
-    colour = "#D5573B", size = 2) +
+    colour = "#D5573B", size = 2, shape = 16) +
   geom_point(
     data = spiro_fg_data, 
     aes(x = x, y = y),
-    colour = "#E7BB41", size = 10) +
+    colour = "#E7BB41", size = 10, shape = 16) +
   transition_time(index) +
   shadow_wake(wake_length = 0.8, alpha = FALSE) +
   theme_void() +
