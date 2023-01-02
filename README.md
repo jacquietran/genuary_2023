@@ -11,7 +11,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | Day | Prompt | Link to piece |
 |---|---|---|
 | 01 | Perfect loop / Infinite loop / endless GIFs | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230101.gif) |
-| 02 | Made in 10 minutes | |
+| 02 | Made in 10 minutes | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230102.png) |
 | 03 | Glitch art | |
 | 04 | Intersections | |
 | 05 | Debug view | |
@@ -48,3 +48,4 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 |---|---|---|
 | 01 | `gganimate` package: https://gganimate.com/ | [Thomas Lin Pedersen](https://www.data-imaginist.com/) |
 | | `ggforce` package: https://ggforce.data-imaginist.com/ | [Thomas Lin Pedersen](https://www.data-imaginist.com/) |
+| 02 | Series: "Things I've Been Thinking About Lately" | [Jacquie Tran](https://github.com/jacquietran/art_tibtal) |
