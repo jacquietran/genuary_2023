@@ -12,7 +12,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 |---|---|---|
 | 01 | Perfect loop / Infinite loop / endless GIFs | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230101.gif) |
 | 02 | Made in 10 minutes | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230102.png) |
-| 03 | Glitch art | |
+| 03 | Glitch art | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230103.png) |
 | 04 | Intersections | |
 | 05 | Debug view | |
 | 06 | Steal like an artist | |
