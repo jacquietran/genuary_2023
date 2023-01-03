@@ -1,8 +1,8 @@
 # Load libraries ---------------------------------------------------------------
 
-library(av)
 library(ggplot2)
 library(magick)
+# Also requires {tuneR}, {seewave}
 
 # Load audio data --------------------------------------------------------------
 

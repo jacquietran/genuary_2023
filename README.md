@@ -19,7 +19,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 07 | Sample a color palette from your favorite movie/album cover | |
 | 08 | Signed distance functions | |
 | 09 | Plants | |
-| 10 | Generative music | |
+| 10 | Generative music | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230110.png) |
 | 11 | Suprematism | |
 | 12 | Tesselation | |
 | 13 | Something you’ve always wanted to learn | |
@@ -49,3 +49,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 01 | `gganimate` package: https://gganimate.com/ | [Thomas Lin Pedersen](https://www.data-imaginist.com/) |
 | | `ggforce` package: https://ggforce.data-imaginist.com/ | [Thomas Lin Pedersen](https://www.data-imaginist.com/) |
 | 02 | Series: "Things I've Been Thinking About Lately" | [Jacquie Tran](https://github.com/jacquietran/art_tibtal) |
+| 10 | Song: "Batflowers" by Megan Washington | [Link](https://www.youtube.com/watch?v=JorXcelMeC8) |
+| | `av` package: https://github.com/ropensci/av | [Jeroen Ooms](https://github.com/jeroen) |
+| | `tuneR` package: https://cran.r-project.org/web/packages/tuneR/index.html | Uwe Ligges |
+| | `seewave` package: https://rug.mnhn.fr/seewave/ | Jerome Sueur |
