@@ -49,7 +49,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 01 | `gganimate` package: https://gganimate.com/ | [Thomas Lin Pedersen](https://www.data-imaginist.com/) |
 | | `ggforce` package: https://ggforce.data-imaginist.com/ | [Thomas Lin Pedersen](https://www.data-imaginist.com/) |
 | 02 | Series: "Things I've Been Thinking About Lately" | [Jacquie Tran](https://github.com/jacquietran/art_tibtal) |
-| 10 | Song: "Batflowers" by Megan Washington | [Link](https://www.youtube.com/watch?v=JorXcelMeC8) |
+| 10 | Song: "Batflowers" by Megan Washington | [Megan Washington](https://www.youtube.com/watch?v=JorXcelMeC8) |
 | | `av` package: https://github.com/ropensci/av | [Jeroen Ooms](https://github.com/jeroen) |
 | | `tuneR` package: https://cran.r-project.org/web/packages/tuneR/index.html | Uwe Ligges |
 | | `seewave` package: https://rug.mnhn.fr/seewave/ | Jerome Sueur |
