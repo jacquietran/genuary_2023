@@ -23,7 +23,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 09 | Plants | |
 | 10 | Generative music | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230110.png) |
 | 11 | Suprematism | |
-| 12 | Tesselation | |
+| 12 | Tessellation | |
 | 13 | Something you’ve always wanted to learn | |
 | 14 | Aesemic | |
 | 15 | Sine waves | |
