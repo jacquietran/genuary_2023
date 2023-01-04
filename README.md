@@ -13,7 +13,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 01 | Perfect loop / Infinite loop / endless GIFs | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230101.gif) |
 | 02 | Made in 10 minutes | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230102.png) |
 | 03 | Glitch art | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230103.png) |
-| 04 | Intersections | |
+| 04 | Intersections | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230104.png) |
 | 05 | Debug view | |
 | 06 | Steal like an artist | |
 | 07 | Sample a color palette from your favorite movie/album cover | |
