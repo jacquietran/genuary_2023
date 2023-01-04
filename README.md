@@ -53,6 +53,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 02 | Series: "Things I've Been Thinking About Lately" | [Jacquie Tran](https://github.com/jacquietran/art_tibtal) |
 | 05 | Blog post: "Hierarchical clustering and dendrograms in R for data science" | [Maria Gulzar](https://towardsdatascience.com/hierarchical-clustering-and-dendrograms-in-r-for-data-science-5ab076fabf76) |
 | | Blog post: "Visualizing dendograms in R" | [Gaston Sanchez](https://rpubs.com/gaston/dendrograms) |
+| | `ape` package: https://cran.r-project.org/web/packages/ape/index.html | [Emmanuel Paradis](http://ape-package.ird.fr/)
 | | `magick` package: https://cran.r-project.org/web/packages/magick/vignettes/intro.html | [Jeroen Ooms](https://github.com/jeroen) |
 | 10 | Song: "Batflowers" by Megan Washington | [Megan Washington](https://www.youtube.com/watch?v=JorXcelMeC8) |
 | | `av` package: https://github.com/ropensci/av | [Jeroen Ooms](https://github.com/jeroen) |
