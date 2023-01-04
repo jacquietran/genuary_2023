@@ -8,7 +8,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 
 ## My pieces
 
-![](https://raw.githubusercontent.com/jacquietran/genuary_2023/main/img/all_pieces_to_day_04.png)
+![](https://raw.githubusercontent.com/jacquietran/genuary_2023/main/img/all_pieces_to_day_05.png)
 
 | Day | Prompt | Link to piece |
 |---|---|---|
@@ -16,7 +16,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 02 | Made in 10 minutes | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230102.png) |
 | 03 | Glitch art | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230103.png) |
 | 04 | Intersections | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230104.png) |
-| 05 | Debug view | |
+| 05 | Debug view | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230105.png) |
 | 06 | Steal like an artist | |
 | 07 | Sample a color palette from your favorite movie/album cover | |
 | 08 | Signed distance functions | |
@@ -51,6 +51,9 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 01 | `gganimate` package: https://gganimate.com/ | [Thomas Lin Pedersen](https://www.data-imaginist.com/) |
 | | `ggforce` package: https://ggforce.data-imaginist.com/ | [Thomas Lin Pedersen](https://www.data-imaginist.com/) |
 | 02 | Series: "Things I've Been Thinking About Lately" | [Jacquie Tran](https://github.com/jacquietran/art_tibtal) |
+| 05 | Blog post: "Hierarchical clustering and dendrograms in R for data science" | [Maria Gulzar](https://towardsdatascience.com/hierarchical-clustering-and-dendrograms-in-r-for-data-science-5ab076fabf76) |
+| | Blog post: "Visualizing dendograms in R" | [Gaston Sanchez](https://rpubs.com/gaston/dendrograms) |
+| | `magick` package: https://cran.r-project.org/web/packages/magick/vignettes/intro.html | [Jeroen Ooms](https://github.com/jeroen) |
 | 10 | Song: "Batflowers" by Megan Washington | [Megan Washington](https://www.youtube.com/watch?v=JorXcelMeC8) |
 | | `av` package: https://github.com/ropensci/av | [Jeroen Ooms](https://github.com/jeroen) |
 | | `tuneR` package: https://cran.r-project.org/web/packages/tuneR/index.html | Uwe Ligges |
