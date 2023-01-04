@@ -17,7 +17,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 03 | Glitch art | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230103.png) |
 | 04 | Intersections | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230104.png) |
 | 05 | Debug view | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230105.png) |
-| 06 | Steal like an artist | |
+| 06 | Steal like an artist | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230106.png) |
 | 07 | Sample a color palette from your favorite movie/album cover | |
 | 08 | Signed distance functions | |
 | 09 | Plants | |
@@ -55,6 +55,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | | Blog post: "Visualizing dendograms in R" | [Gaston Sanchez](https://rpubs.com/gaston/dendrograms) |
 | | `ape` package: https://cran.r-project.org/web/packages/ape/index.html | [Emmanuel Paradis](http://ape-package.ird.fr/)
 | | `magick` package: https://cran.r-project.org/web/packages/magick/vignettes/intro.html | [Jeroen Ooms](https://github.com/jeroen) |
+| 06 | Blog post: "Flow fields" | [George Savva](https://georgemsavva.github.io/creativecoding/posts/flowfields/) |
 | 10 | Song: "Batflowers" by Megan Washington | [Megan Washington](https://www.youtube.com/watch?v=JorXcelMeC8) |
 | | `av` package: https://github.com/ropensci/av | [Jeroen Ooms](https://github.com/jeroen) |
 | | `tuneR` package: https://cran.r-project.org/web/packages/tuneR/index.html | Uwe Ligges |
