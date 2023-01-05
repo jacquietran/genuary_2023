@@ -78,7 +78,7 @@ hc_segments(hc4, ir4, gp = gpar(lwd = 60, col = palette[4]))
 img <- image_read(here::here("img/ingredients/20230109_base.png"))
 
 img_filtered <- image_negate(img) |>
-  image_border(color = "#000000", "1000x1000") |>
+  image_border(color = "#000000", "1200x1200") |>
   image_scale("6000x6000!")
 
 image_write(
