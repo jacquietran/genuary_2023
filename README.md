@@ -8,7 +8,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 
 ## My pieces
 
-![](https://raw.githubusercontent.com/jacquietran/genuary_2023/main/img/all_pieces_to_day_08.png)
+![](https://raw.githubusercontent.com/jacquietran/genuary_2023/main/img/all_pieces_to_day_10.png)
 
 | Day | Prompt | Link to piece |
 |---|---|---|
@@ -20,7 +20,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 06 | Steal like an artist | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230106.png) |
 | 07 | Sample a color palette from your favorite movie/album cover | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230107.png) |
 | 08 | Signed distance functions | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230108.png) |
-| 09 | Plants | |
+| 09 | Plants | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230109.png) |
 | 10 | Generative music | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230110.png) |
 | 11 | Suprematism | |
 | 12 | Tessellation | |
@@ -60,6 +60,8 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | | `ghibli` package: https://github.com/ewenme/ghibli | [ewenme](https://github.com/ewenme) |
 | | `truchet` package: https://github.com/paezha/truchet | [Antonio Paez](https://github.com/paezha) |
 | 08 | `geom_mark_hull()` from the `ggforce` package: https://ggforce.data-imaginist.com/reference/geom_mark_hull.html | [Thomas Lin Pedersen](https://www.data-imaginist.com/) |
+| 09 | `HilbertCurve` package: https://bioconductor.org/packages/release/bioc/html/HilbertCurve.html | Zuguang Gu |
+| | Blog post: "Making 2D Hilbert Curve" | [Zuguang Gu](https://bioconductor.org/packages/release/bioc/vignettes/HilbertCurve/inst/doc/HilbertCurve.html) |
 | 10 | Song: "Batflowers" by Megan Washington | [Megan Washington](https://www.youtube.com/watch?v=JorXcelMeC8) |
 | | `av` package: https://github.com/ropensci/av | [Jeroen Ooms](https://github.com/jeroen) |
 | | `tuneR` package: https://cran.r-project.org/web/packages/tuneR/index.html | Uwe Ligges |
