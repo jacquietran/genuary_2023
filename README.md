@@ -8,7 +8,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 
 ## My pieces
 
-![](https://raw.githubusercontent.com/jacquietran/genuary_2023/main/img/all_pieces_to_day_10.png)
+![](https://raw.githubusercontent.com/jacquietran/genuary_2023/main/img/all_pieces_to_day_11.png)
 
 | Day | Prompt | Link to piece |
 |---|---|---|
@@ -22,7 +22,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 08 | Signed distance functions | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230108.png) |
 | 09 | Plants | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230109.png) |
 | 10 | Generative music | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230110.png) |
-| 11 | Suprematism | |
+| 11 | Suprematism | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230111.png) |
 | 12 | Tessellation | |
 | 13 | Something you’ve always wanted to learn | |
 | 14 | Aesemic | |
@@ -66,3 +66,5 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | | `av` package: https://github.com/ropensci/av | [Jeroen Ooms](https://github.com/jeroen) |
 | | `tuneR` package: https://cran.r-project.org/web/packages/tuneR/index.html | Uwe Ligges |
 | | `seewave` package: https://rug.mnhn.fr/seewave/ | Jerome Sueur |
+| 11 | Painting: "Suprematist Composition (blue rectangle over the red beam)" by Kazimir Malevich | [Wikipedia](https://en.wikipedia.org/wiki/Suprematist_Composition) |
+| | Series: "Noise Studies" | [Jacquie Tran](https://github.com/jacquietran/art_noise_studies) |
