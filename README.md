@@ -29,7 +29,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 15 | Sine waves | |
 | 16 | Reflection of a reflection | |
 | 17 | A grid inside a grid inside a grid | |
-| 18 | Definitely not a grid | |
+| 18 | Definitely not a grid | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230118.png) |
 | 19 | Black and white | |
 | 20 | Art deco | |
 | 21 | Persian rug | |
