@@ -34,7 +34,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 20 | Art deco | |
 | 21 | Persian rug | |
 | 22 | Shadows | |
-| 23 | More Moiré | |
+| 23 | More Moiré | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230123.png) |
 | 24 | Textile | |
 | 25 | Yayoi Kusama | |
 | 26 | My kid could have made that | |
