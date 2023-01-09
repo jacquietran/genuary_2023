@@ -8,7 +8,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 
 ## My pieces
 
-![](https://raw.githubusercontent.com/jacquietran/genuary_2023/main/img/all_pieces_to_day_12.png)
+![](https://raw.githubusercontent.com/jacquietran/genuary_2023/main/img/all_pieces_to_day_13.png)
 
 | Day | Prompt | Link to piece |
 |---|---|---|
@@ -24,7 +24,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 10 | Generative music | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230110.png) |
 | 11 | Suprematism | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230111.png) |
 | 12 | Tessellation | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230112.png) |
-| 13 | Something you’ve always wanted to learn | |
+| 13 | Something you’ve always wanted to learn | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230113.png) |
 | 14 | Aesemic | |
 | 15 | Sine waves | |
 | 16 | Reflection of a reflection | |
@@ -67,5 +67,6 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | | `tuneR` package: https://cran.r-project.org/web/packages/tuneR/index.html | Uwe Ligges |
 | | `seewave` package: https://rug.mnhn.fr/seewave/ | Jerome Sueur |
 | 11 | Painting: "Suprematist Composition (blue rectangle over the red beam)" by Kazimir Malevich | [Wikipedia](https://en.wikipedia.org/wiki/Suprematist_Composition) |
-| 12 | Deltoidal trihexagonal tiling | [Wikipedia](https://en.wikipedia.org/wiki/Rhombitrihexagonal_tiling#Deltoidal_trihexagonal_tiling) |
 | | Series: "Noise Studies" | [Jacquie Tran](https://github.com/jacquietran/art_noise_studies) |
+| 12 | Deltoidal trihexagonal tiling | [Wikipedia](https://en.wikipedia.org/wiki/Rhombitrihexagonal_tiling#Deltoidal_trihexagonal_tiling) |
+| 13 | [p5.js](https://p5js.org) | |
