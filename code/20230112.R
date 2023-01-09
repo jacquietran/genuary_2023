@@ -4,7 +4,7 @@ library(ggplot2)
 
 # Source custom functions ------------------------------------------------------
 
-source(here::here("R/functions/hexagonal_tiling.R"))
+source(here::here("code/functions/hexagonal_tiling.R"))
 
 # Modifiable parameters --------------------------------------------------------
 
