@@ -8,7 +8,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 
 ## My pieces
 
-![](https://raw.githubusercontent.com/jacquietran/genuary_2023/main/img/all_pieces_to_day_14.png)
+![](https://raw.githubusercontent.com/jacquietran/genuary_2023/main/img/all_pieces_to_day_15.png)
 
 | Day | Prompt | Link to piece |
 |---|---|---|
@@ -26,7 +26,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 12 | Tessellation | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230112.png) |
 | 13 | Something you’ve always wanted to learn | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230113.png) |
 | 14 | Aesemic | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230114.png) |
-| 15 | Sine waves | |
+| 15 | Sine waves | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230115.png) |
 | 16 | Reflection of a reflection | |
 | 17 | A grid inside a grid inside a grid | |
 | 18 | Definitely not a grid | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230118.png) |
