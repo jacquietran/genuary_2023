@@ -102,7 +102,8 @@ img_implode <- img %>%
     method = "Dilate", kernel = "Disk", iterations = 6) %>%
   image_noise(noisetype = "laplacian") %>%
   image_noise(noisetype = "laplacian") %>%
-  image_noise(noisetype = "laplacian")
+  image_noise(noisetype = "laplacian") %>%
+  image_scale("4000x3000!")
 
 image_write(
   img_implode, path = here::here("img/20230115.png"))
