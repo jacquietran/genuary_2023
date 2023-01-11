@@ -3,6 +3,8 @@
 library(tibble)
 library(dplyr)
 library(ggplot2)
+library(magick)
+# Also requires {tidyr}, {ggfx}
 
 # Modifiable parameters --------------------------------------------------------
 
@@ -87,5 +89,20 @@ ggplot() +
 # Save to file -----------------------------------------------------------------
 
 ggsave(
-  here::here("img/20230115.png"), last_plot(),
+  here::here("img/ingredients/20230115.png"), last_plot(),
   width = 12, height = 9, units = "in", dpi = 600)
+
+# Switch to {magick} workflow --------------------------------------------------
+
+img <- image_read(here::here("img/ingredients/20230115.png"))
+
+img_implode <- img %>%
+  image_implode(factor = -0.7) %>%
+  image_morphology(
+    method = "Dilate", kernel = "Disk", iterations = 6) %>%
+  image_noise(noisetype = "laplacian") %>%
+  image_noise(noisetype = "laplacian") %>%
+  image_noise(noisetype = "laplacian")
+
+image_write(
+  img_implode, path = here::here("img/20230115.png"))
