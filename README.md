@@ -8,7 +8,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 
 ## My pieces
 
-![](https://raw.githubusercontent.com/jacquietran/genuary_2023/main/img/all_pieces_to_day_15.png)
+![](https://raw.githubusercontent.com/jacquietran/genuary_2023/main/img/all_pieces_to_day_16.png)
 
 | Day | Prompt | Link to piece |
 |---|---|---|
@@ -27,7 +27,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 13 | Something you’ve always wanted to learn | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230113.png) |
 | 14 | Aesemic | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230114.png) |
 | 15 | Sine waves | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230115.png) |
-| 16 | Reflection of a reflection | |
+| 16 | Reflection of a reflection | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230116.png) |
 | 17 | A grid inside a grid inside a grid | |
 | 18 | Definitely not a grid | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230118.png) |
 | 19 | Black and white | |
@@ -71,3 +71,4 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 12 | Deltoidal trihexagonal tiling | [Wikipedia](https://en.wikipedia.org/wiki/Rhombitrihexagonal_tiling#Deltoidal_trihexagonal_tiling) |
 | 13 | [p5.js](https://p5js.org) | |
 | 14 | Japanese calligraphy | [Wikipedia](https://en.wikipedia.org/wiki/Japanese_calligraphy) |
+| 16 | Reflection of light | [Science Learning Hub | Pokapū Akoranga Pūtaiao](https://www.sciencelearn.org.nz/resources/48-reflection-of-light) |
