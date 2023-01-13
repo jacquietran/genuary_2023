@@ -1,4 +1,4 @@
-triforce <- function(n_across, seed, palette_list){
+triforce <- function(n_across, seed, palette_list, size_weightings){
   
   if(missing(n_across)){
     n_across <- 10
@@ -13,6 +13,10 @@ triforce <- function(n_across, seed, palette_list){
       c("#034563", "#8E3B46"),
       c("#D3A736", "#B1713E"),
       c("#77ACA2", "#6C6060"))
+  }
+  
+  if(missing(size_weightings)){
+    size_weightings <- NULL
   }
   
   # Requires {tibble}, {dplyr}, {tidyr}, {stringr}, {tidyselect}
@@ -42,7 +46,7 @@ triforce <- function(n_across, seed, palette_list){
   subdiv_labels <- base_grid |>
     dplyr::distinct(group) |>
     dplyr::mutate(
-      size = sample(c("small", "medium", "large"), dplyr::n(), replace = TRUE),
+      size = sample(c("small", "medium", "large"), dplyr::n(), replace = TRUE, prob = size_weightings),
       orientation = dplyr::case_when(
         # tl = top left, tr = top right, br = bottom right, bl = bottom left
         size == "large"  ~ sample(c("tl", "tr", "br", "bl"), dplyr::n(), replace = TRUE),
