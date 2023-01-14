@@ -1,7 +1,7 @@
 # Load libraries ---------------------------------------------------------------
 
 library(ggplot2)
-# Also requires {ggfx}, and
+# Also requires {ggfx}, {scales}, and
 # {dplyr}, {tibble}, {tidyr}, {stringr}, {tidyselect} are used in custom function
 
 # Source custom function -------------------------------------------------------
