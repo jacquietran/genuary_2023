@@ -46,7 +46,9 @@ triforce <- function(n_across, seed, palette_list, size_weightings){
   subdiv_labels <- base_grid |>
     dplyr::distinct(group) |>
     dplyr::mutate(
-      size = sample(c("small", "medium", "large"), dplyr::n(), replace = TRUE, prob = size_weightings),
+      size = sample(
+        c("small", "medium", "large"), dplyr::n(), replace = TRUE,
+        prob = size_weightings),
       orientation = dplyr::case_when(
         # tl = top left, tr = top right, br = bottom right, bl = bottom left
         size == "large"  ~ sample(c("tl", "tr", "br", "bl"), dplyr::n(), replace = TRUE),
@@ -58,7 +60,7 @@ triforce <- function(n_across, seed, palette_list, size_weightings){
   subdiv_grid <- dplyr::left_join(
     base_grid, subdiv_labels, by = "group")
   
-  # Specify coords: Large elements -----------------------------------------------
+  # Specify coords: Large elements ---------------------------------------------
   
   subdiv_grid_l <- subdiv_grid |>
     dplyr::filter(size == "large") |>
@@ -72,7 +74,7 @@ triforce <- function(n_across, seed, palette_list, size_weightings){
     dplyr::filter(coord_to_omit == "keep") |>
     dplyr::select(-coord_to_omit)
   
-  # Specify coords: Medium elements ----------------------------------------------
+  # Specify coords: Medium elements --------------------------------------------
   
   subdiv_grid_m <- subdiv_grid |>
     dplyr::filter(size == "medium") |>
@@ -105,7 +107,7 @@ triforce <- function(n_across, seed, palette_list, size_weightings){
     dplyr::rename(coord_loc = coord_loc_new) |>
     dplyr::arrange(row, group, coord_loc)
   
-  # Specify coords: Small elements - 2 columns -----------------------------------
+  # Specify coords: Small elements - 2 columns ---------------------------------
   
   # X values
   subdiv_grid_s_2col_x <- subdiv_grid |>
@@ -194,7 +196,7 @@ triforce <- function(n_across, seed, palette_list, size_weightings){
       group = paste(group, subgroup, sep = "_")) |>
     dplyr::select(-subgroup)
   
-  # Specify coords: Small elements - 4 columns -----------------------------------
+  # Specify coords: Small elements - 4 columns ---------------------------------
   
   # X values
   subdiv_grid_s_4col_x <- subdiv_grid |>
@@ -311,23 +313,31 @@ triforce <- function(n_across, seed, palette_list, size_weightings){
       group = paste(group, subgroup, sep = "_")) |>
     dplyr::select(-subgroup)
   
-  # Merge the small elements data into one data frame ----------------------------
+  # Merge the small elements data into one data frame --------------------------
   
   subdiv_grid_s <- dplyr::bind_rows(subdiv_grid_s_2col, subdiv_grid_s_4col)
   
-  # Bring the subdivisions back together -----------------------------------------
+  # Bring the subdivisions back together ---------------------------------------
   
   set.seed(seed)
-  divvied_up <- dplyr::bind_rows(subdiv_grid_l, subdiv_grid_m, subdiv_grid_s) |>
+  subdiv_merged <- dplyr::bind_rows(subdiv_grid_l, subdiv_grid_m, subdiv_grid_s) |>
     dplyr::mutate(
-      element_id = paste("group", group, "size", size, sep = "_")) |>
-    dplyr::group_by(element_id) |>
+      element_id = paste("group", group, "size", size, sep = "_"))
+  
+  subdiv_merged_labelled <- subdiv_merged |>
+    dplyr::distinct(element_id, .keep_all = TRUE) |>
+    dplyr::select(element_id, size) |>
     dplyr::mutate(
       colour_hex = dplyr::case_when(
         size == "large"  ~ sample(unlist(palette_list[1]), dplyr::n(), replace = TRUE),
         size == "medium" ~ sample(unlist(palette_list[2]), dplyr::n(), replace = TRUE),
-        size == "small"  ~ sample(unlist(palette_list[3]), dplyr::n(), replace = TRUE))) |>
-    dplyr::ungroup()
+        size == "small"  ~ sample(unlist(palette_list[3]), dplyr::n(), replace = TRUE)),
+      solid_fill = sample(c("yes", "no"), dplyr::n(), replace = TRUE)) |>
+    dplyr::ungroup() |>
+    dplyr::select(-size)
+  
+  divvied_up <- dplyr::left_join(
+    subdiv_merged, subdiv_merged_labelled, by = "element_id")
   
   return(divvied_up)
   

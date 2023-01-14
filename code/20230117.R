@@ -1,8 +1,8 @@
 # Load libraries ---------------------------------------------------------------
 
 library(ggplot2)
-# Also requires {dplyr}, {tibble}, {tidyr}, {stringr}, {tidyselect}
-# for use in custom function
+# Also requires {ggfx}, and
+# {dplyr}, {tibble}, {tidyr}, {stringr}, {tidyselect} are used in custom function
 
 # Source custom function -------------------------------------------------------
 
@@ -24,6 +24,11 @@ divvied_up <- triforce(
   n_across = n_across, seed = seed,
   palette_list = list(palette1, palette2, palette3))
 
+set.seed(seed)
+polka <- tibble::tibble(
+  x = scales::rescale(rnorm(20000), to = c(0-n_across, n_across*2)),
+  y = scales::rescale(rnorm(20000), to = c(0-n_across, n_across*2)))
+
 # Build plot -------------------------------------------------------------------
 
 ggplot() +
@@ -31,9 +36,18 @@ ggplot() +
     data = divvied_up,
     aes(x = x, y = y, group = element_id, fill = colour_hex),
     colour = bg_colour, linewidth = 1.5) +
+  geom_point(
+    data = polka,
+    aes(x = x, y = y),
+    colour = bg_colour, size = 0.01, shape = 46) +
+  geom_polygon(
+    data = divvied_up |> dplyr::filter(solid_fill == "yes"),
+    aes(x = x, y = y, group = element_id, fill = colour_hex),
+    colour = bg_colour, linewidth = 1.5) +
   scale_fill_identity() +
   theme_void() +
-  coord_cartesian(expand = FALSE) +
+  coord_cartesian(
+    xlim = c(0,n_across), ylim = c(0,n_across), expand = FALSE) +
   theme(
     plot.background = element_rect(fill = bg_colour, colour = bg_colour),
     plot.margin = margin(6,4,6,4, unit = "cm"))
