@@ -27,23 +27,36 @@ divvied_up <- triforce(
 set.seed(seed)
 polka <- tibble::tibble(
   x = scales::rescale(rnorm(20000), to = c(0-n_across, n_across*2)),
-  y = scales::rescale(rnorm(20000), to = c(0-n_across, n_across*2)))
+  y = scales::rescale(rnorm(20000), to = c(0-n_across, n_across*2))) |>
+  dplyr::mutate(
+    colour_hex = sample(
+      c(bg_colour, palette1, palette2, palette3), dplyr::n(), replace = TRUE))
 
 # Build plot -------------------------------------------------------------------
 
 ggplot() +
-  geom_polygon(
-    data = divvied_up,
-    aes(x = x, y = y, group = element_id, fill = colour_hex),
-    colour = bg_colour, linewidth = 1.5) +
-  geom_point(
-    data = polka,
-    aes(x = x, y = y),
-    colour = bg_colour, size = 0.01, shape = 46) +
+  ggfx::as_reference(
+    geom_polygon(
+      data = divvied_up,
+      aes(x = x, y = y, group = element_id, fill = colour_hex)),
+    id = "base") +
+  ggfx::with_blend(
+    geom_point(
+      data = polka,
+      aes(x = x, y = y, colour = colour_hex),
+      size = 0.25, shape = 15),
+    bg_layer = "base",
+    blend_type = "atop") +
+  scale_colour_identity() +
+  ggnewscale::new_scale_colour() +
   geom_polygon(
     data = divvied_up |> dplyr::filter(solid_fill == "yes"),
     aes(x = x, y = y, group = element_id, fill = colour_hex),
     colour = bg_colour, linewidth = 1.5) +
+  geom_polygon(
+    data = divvied_up |> dplyr::filter(solid_fill == "no"),
+    aes(x = x, y = y, group = element_id),
+    fill = NA, colour = bg_colour, linewidth = 1.5) +
   scale_fill_identity() +
   theme_void() +
   coord_cartesian(
