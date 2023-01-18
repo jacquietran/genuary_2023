@@ -8,7 +8,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 
 ## My pieces
 
-![](https://raw.githubusercontent.com/jacquietran/genuary_2023/main/img/all_pieces_to_day_18.png)
+![](https://raw.githubusercontent.com/jacquietran/genuary_2023/main/img/all_pieces_to_day_19.png)
 
 | Day | Prompt | Link to piece |
 |---|---|---|
@@ -30,7 +30,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 16 | Reflection of a reflection | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230116.png) |
 | 17 | A grid inside a grid inside a grid | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230117.png) |
 | 18 | Definitely not a grid | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230118.png) |
-| 19 | Black and white | |
+| 19 | Black and white | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230119.png) |
 | 20 | Art deco | |
 | 21 | Persian rug | |
 | 22 | Shadows | |
@@ -75,3 +75,5 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 17 | Blog post: "So, you want to subdivide a rectangle" | [Ijeamaka Anyene](https://ijeamaka-anyene.netlify.app/posts/2021-09-07-so-you-want-to-subdivide-a-rectangle/) |
 | | Presentation: "Anatomy of generative art" | [Ijeamaka Anyene](https://github.com/Ijeamakaanyene/anatomy_of_generative_art) |
 | | Workshop materials: "Art from code: Tiles and tessellations" | [Danielle Navarro](https://art-from-code.netlify.app/day-2/session-2/) |
+| 19 | `paintr` package: https://github.com/cj-holmes/paintr | [Chris Holmes](https://www.cjholmes.net/) |
+| | Photo: "December 08, 2022 - Winter: Sunset on Building Wall" | [Jéan Béller](https://unsplash.com/photos/6cLBliGpaoM) |
