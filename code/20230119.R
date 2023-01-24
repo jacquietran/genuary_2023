@@ -12,7 +12,7 @@ img <- here::here("img/ingredients/jean-beller-6cLBliGpaoM-unsplash.jpg")
 painted <- paint_by_numbers(
   img,
   brightness = 170, saturation = 200, simplify = 0.1,
-  target_palette = c("#FFFFFF", "#F8F9FA", "#DEE2E6", "#ADB5BD", "#495057", "#212529", "#000000"))
+  target_palette = c("#FFFFFF", "#000000"))
 
 # Build plot -------------------------------------------------------------------
 
