@@ -35,7 +35,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 21 | Persian rug | |
 | 22 | Shadows | |
 | 23 | More Moiré | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230123.png) |
-| 24 | Textile | |
+| 24 | Textile | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230124.png) |
 | 25 | Yayoi Kusama | |
 | 26 | My kid could have made that | |
 | 27 | In the style of Hilma Af Klint | |
@@ -77,3 +77,4 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | | Workshop materials: "Art from code: Tiles and tessellations" | [Danielle Navarro](https://art-from-code.netlify.app/day-2/session-2/) |
 | 19 | `paintr` package: https://github.com/cj-holmes/paintr | [Chris Holmes](https://www.cjholmes.net/) |
 | | Photo: "December 08, 2022 - Winter: Sunset on Building Wall" | [Jéan Béller](https://unsplash.com/photos/6cLBliGpaoM) |
+| 24 | Elizabeth Line moquette | [London Underground](https://www.ltmuseumshop.co.uk/catalog/product/view/id/38042/s/elizabeth-line-moquette-design-lambswool-scarf/) |
