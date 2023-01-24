@@ -7,6 +7,8 @@ library(ggplot2)
 # Create data ------------------------------------------------------------------
 
 seed_num <- 123
+palette1 <- c("#8b817f", "#162d63", "#c81528", "#c18c6c", "#e1d0c5", "#bbccd2")
+palette2 <- c(palette1, "#6d458d")
 
 df_col1 <- tibble(
   group = rep(1:24, each = 4),
@@ -29,9 +31,9 @@ df_col1 <- tibble(
     times = 2),
   colour_hex = rep(
     c(rep("#e1d0c5", times = 3*4),
-      rep("#69497e", times = 1*4),
+      rep("#6d458d", times = 1*4),
       rep("#e1d0c5", times = 1*4),
-      rep("#7b7774", times = 1*4)),
+      rep("#8b817f", times = 1*4)),
     times = 4))
 
 df_col2 <- tibble(
@@ -50,11 +52,11 @@ df_col2 <- tibble(
         10,11,11,10,
         11,12,12,11),
   colour_hex = rep(
-    c(rep("#69497e", times = 1*4),
+    c(rep("#6d458d", times = 1*4),
       rep("#e1d0c5", times = 1*4),
-      rep("#7b7774", times = 1*4),
+      rep("#8b817f", times = 1*4),
       rep("#e1d0c5", times = 2*4),
-      rep("#7b7774", times = 1*4)),
+      rep("#8b817f", times = 1*4)),
     times = 2))
 
 df_col3 <- tibble(
@@ -73,9 +75,9 @@ df_col3 <- tibble(
         10,11,11,10,
         11,12,12,11),
   colour_hex = rep(
-    c(rep("#69497e", times = 1*4),
+    c(rep("#6d458d", times = 1*4),
       rep("#e1d0c5", times = 1*4),
-      rep("#7b7774", times = 1*4),
+      rep("#8b817f", times = 1*4),
       rep("#e1d0c5", times = 3*4)),
     times = 2))
 
@@ -88,8 +90,7 @@ df_hlines <- tibble(
   y_end = y_start) %>%
   mutate(
     colour_hex = sample(
-      c("#7b7774", "#32396d", "#ba4646", "#c18c6c", "#e1d0c5"),
-      n(), replace = TRUE))
+      palette1, n(), replace = TRUE))
 
 set.seed(seed_num)
 df_thinlines <- tibble(
@@ -100,8 +101,7 @@ df_thinlines <- tibble(
   y_end = y_start) %>%
   mutate(
     colour_hex = sample(
-      c("#7b7774", "#32396d", "#ba4646", "#c18c6c", "#e1d0c5"),
-      n(), replace = TRUE))
+      palette2, n(), replace = TRUE))
 
 # Build plot -------------------------------------------------------------------
 
