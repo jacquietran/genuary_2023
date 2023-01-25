@@ -36,7 +36,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 22 | Shadows | |
 | 23 | More Moiré | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230123.png) |
 | 24 | Textile | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230124.png) |
-| 25 | Yayoi Kusama | |
+| 25 | Yayoi Kusama | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230125.png) |
 | 26 | My kid could have made that | |
 | 27 | In the style of Hilma Af Klint | |
 | 28 | Generative poetry | |
@@ -80,3 +80,4 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 20 | Poster: "It is cooler below" | [Frederick Charles Herrick](https://www.ltmuseum.co.uk/collections/collections-online/posters/item/1983-4-2030) |
 | 21 | `ggpattern` package: https://coolbutuseless.github.io/package/ggpattern/index.html | [Mike FC](https://github.com/coolbutuseless) |
 | 24 | Elizabeth Line moquette | [London Underground](https://www.ltmuseumshop.co.uk/catalog/product/view/id/38042/s/elizabeth-line-moquette-design-lambswool-scarf/) |
+| 25 | Yayoi Kusama exhibition poster: https://artscart.com/products/yayoi-kusama-exhibition-poster-2 | |
