@@ -76,3 +76,7 @@ img_bottom_right <- image_flop(img_bottom_left)
 img_app_left <- image_append(c(img_top_left, img_bottom_left), stack = TRUE)
 img_app_right <- image_append(c(img_top_right, img_bottom_right), stack = TRUE)
 img_combined <- image_append(c(img_app_left, img_app_right), stack = FALSE)
+
+image_write(
+  img_combined,
+  path = here::here("img/20230121.png"))
