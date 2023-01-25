@@ -8,7 +8,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 
 ## My pieces
 
-![](https://raw.githubusercontent.com/jacquietran/genuary_2023/main/img/all_pieces_to_day_20.png)
+![](https://raw.githubusercontent.com/jacquietran/genuary_2023/main/img/all_pieces_to_day_21.png)
 
 | Day | Prompt | Link to piece |
 |---|---|---|
@@ -32,7 +32,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 18 | Definitely not a grid | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230118.png) |
 | 19 | Black and white | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230119.png) |
 | 20 | Art deco | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230120.png) |
-| 21 | Persian rug | |
+| 21 | Persian rug | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230121.png) |
 | 22 | Shadows | |
 | 23 | More Moiré | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230123.png) |
 | 24 | Textile | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230124.png) |
@@ -78,4 +78,5 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 19 | `paintr` package: https://github.com/cj-holmes/paintr | [Chris Holmes](https://www.cjholmes.net/) |
 | | Photo: "December 08, 2022 - Winter: Sunset on Building Wall" | [Jéan Béller](https://unsplash.com/photos/6cLBliGpaoM) |
 | 20 | Poster: "It is cooler below" | [Frederick Charles Herrick](https://www.ltmuseum.co.uk/collections/collections-online/posters/item/1983-4-2030) |
+| 21 | `ggpattern` package: https://coolbutuseless.github.io/package/ggpattern/index.html | [Mike FC](https://github.com/coolbutuseless) |
 | 24 | Elizabeth Line moquette | [London Underground](https://www.ltmuseumshop.co.uk/catalog/product/view/id/38042/s/elizabeth-line-moquette-design-lambswool-scarf/) |
