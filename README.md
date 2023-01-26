@@ -8,7 +8,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 
 ## My pieces
 
-![](https://raw.githubusercontent.com/jacquietran/genuary_2023/main/img/all_pieces_to_day_21.png)
+![](https://raw.githubusercontent.com/jacquietran/genuary_2023/main/img/all_pieces_to_day_25.png)
 
 | Day | Prompt | Link to piece |
 |---|---|---|
@@ -33,7 +33,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 19 | Black and white | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230119.png) |
 | 20 | Art deco | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230120.png) |
 | 21 | Persian rug | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230121.png) |
-| 22 | Shadows | |
+| 22 | Shadows | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230122.png) |
 | 23 | More Moiré | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230123.png) |
 | 24 | Textile | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230124.png) |
 | 25 | Yayoi Kusama | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230125.png) |
@@ -79,5 +79,9 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | | Photo: "December 08, 2022 - Winter: Sunset on Building Wall" | [Jéan Béller](https://unsplash.com/photos/6cLBliGpaoM) |
 | 20 | Poster: "It is cooler below" | [Frederick Charles Herrick](https://www.ltmuseum.co.uk/collections/collections-online/posters/item/1983-4-2030) |
 | 21 | `ggpattern` package: https://coolbutuseless.github.io/package/ggpattern/index.html | [Mike FC](https://github.com/coolbutuseless) |
+| 22 | `rayrender` package: https://www.rayrender.net/ | [Tyler Morgan-Wall](https://www.tylermw.com) |
+| | `raybonsai` package: https://github.com/tylermorganwall/raybonsai | [Tyler Morgan-Wall](https://www.tylermw.com) |
+| | Blog post: "raybonsai: Generate procedural 3D trees in R" | [Tyler Morgan-Wall](https://www.tylermw.com/raybonsai-generate-procedural-3d-trees-in-r/) |
+| | Poly Haven: Ninomaru Teien HDR image | [Greg Zaal](https://polyhaven.com/a/ninomaru_teien) |
 | 24 | Elizabeth Line moquette | [London Underground](https://www.ltmuseumshop.co.uk/catalog/product/view/id/38042/s/elizabeth-line-moquette-design-lambswool-scarf/) |
 | 25 | Yayoi Kusama exhibition poster: https://artscart.com/products/yayoi-kusama-exhibition-poster-2 | |
