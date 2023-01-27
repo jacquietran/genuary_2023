@@ -38,6 +38,15 @@ df_cover <- tibble::tibble(
   y = c(0,12,12,0))
 
 set.seed(seed)
+df_diags_bg <- tibble::tibble(
+  x_start = seq(5,7, length.out = n_lines),
+  x_end = sample(seq(-4,6, by = 0.25), n_lines, replace = TRUE),
+  y_start = -1,
+  y_end = 13) %>%
+  mutate(
+    diag_line_width = sample(seq(0.5,2, by = 0.25), n(), replace = TRUE))
+
+set.seed(seed)
 df_diags <- tibble::tibble(
   x_start = seq(5,7, length.out = n_lines),
   x_end = sample(seq(-4,6, by = 0.2), n_lines, replace = TRUE),
@@ -69,6 +78,11 @@ ggplot() +
     data = df_cover,
     aes(x = x, y = y),
     fill = bg_colour) +
+  geom_diagonal(
+    data = df_diags_bg,
+    aes(x = x_start, xend = x_end, y = y_start, yend = y_end,
+        linewidth = diag_line_width),
+    colour = bg_colour) +
   geom_diagonal(
     data = df_diags,
     aes(x = x_start, xend = x_end, y = y_start, yend = y_end,
