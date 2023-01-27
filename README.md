@@ -37,7 +37,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 23 | More Moiré | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230123.png) |
 | 24 | Textile | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230124.png) |
 | 25 | Yayoi Kusama | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230125.png) |
-| 26 | My kid could have made that | |
+| 26 | My kid could have made that | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230126.png) |
 | 27 | In the style of Hilma Af Klint | |
 | 28 | Generative poetry | |
 | 29 | Maximalism | |
@@ -85,3 +85,4 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | | Poly Haven: Ninomaru Teien HDR image | [Greg Zaal](https://polyhaven.com/a/ninomaru_teien) |
 | 24 | Elizabeth Line moquette | [London Underground](https://www.ltmuseumshop.co.uk/catalog/product/view/id/38042/s/elizabeth-line-moquette-design-lambswool-scarf/) |
 | 25 | Yayoi Kusama exhibition poster: https://artscart.com/products/yayoi-kusama-exhibition-poster-2 | |
+| 26 | Illustration: "Me as a musician" | [Vivien Huang](https://www.artgallery.nsw.gov.au/prizes/young-archie/2022/479/) |
