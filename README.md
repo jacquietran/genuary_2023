@@ -8,7 +8,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 
 ## My pieces
 
-![](https://raw.githubusercontent.com/jacquietran/genuary_2023/main/img/all_pieces_to_day_27.png)
+![](https://raw.githubusercontent.com/jacquietran/genuary_2023/main/img/all_pieces_to_day_28.png)
 
 | Day | Prompt | Link to piece |
 |---|---|---|
@@ -39,7 +39,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 25 | Yayoi Kusama | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230125.png) |
 | 26 | My kid could have made that | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230126.png) |
 | 27 | In the style of Hilma Af Klint | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230127.png) |
-| 28 | Generative poetry | |
+| 28 | Generative poetry | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230128.png) |
 | 29 | Maximalism | |
 | 30 | Minimalism | |
 | 31 | Deliberately break one of your previous images, take one of your previous works and ruin it. Alternatively, remix one of your previous works. | |
@@ -87,3 +87,4 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 25 | Yayoi Kusama exhibition poster: https://artscart.com/products/yayoi-kusama-exhibition-poster-2 | |
 | 26 | Illustration: "Me as a musician" | [Vivien Huang](https://www.artgallery.nsw.gov.au/prizes/young-archie/2022/479/) |
 | 27 | Painting: "Svanen, nr 17, grupp IX/SUW, serie SUW/UW" | [Hilma af Klint](https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_Svanen.jpg) |
+| 28 | Petrarchan sonnet | [Wikipedia](https://en.wikipedia.org/wiki/Petrarchan_sonnet) |
