@@ -8,7 +8,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 
 ## My pieces
 
-![](https://raw.githubusercontent.com/jacquietran/genuary_2023/main/img/all_pieces_to_day_28.png)
+![](https://raw.githubusercontent.com/jacquietran/genuary_2023/main/img/all_pieces_to_day_29.png)
 
 | Day | Prompt | Link to piece |
 |---|---|---|
@@ -40,7 +40,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 26 | My kid could have made that | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230126.png) |
 | 27 | In the style of Hilma Af Klint | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230127.png) |
 | 28 | Generative poetry | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230128.png) |
-| 29 | Maximalism | |
+| 29 | Maximalism | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230129.png) |
 | 30 | Minimalism | |
 | 31 | Deliberately break one of your previous images, take one of your previous works and ruin it. Alternatively, remix one of your previous works. | |
 
