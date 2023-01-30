@@ -8,7 +8,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 
 ## My pieces
 
-![](https://raw.githubusercontent.com/jacquietran/genuary_2023/main/img/all_pieces_to_day_29.png)
+![](https://raw.githubusercontent.com/jacquietran/genuary_2023/main/img/all_pieces_to_day_30.png)
 
 | Day | Prompt | Link to piece |
 |---|---|---|
@@ -41,7 +41,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 27 | In the style of Hilma Af Klint | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230127.png) |
 | 28 | Generative poetry | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230128.png) |
 | 29 | Maximalism | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230129.png) |
-| 30 | Minimalism | |
+| 30 | Minimalism | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230130.png) |
 | 31 | Deliberately break one of your previous images, take one of your previous works and ruin it. Alternatively, remix one of your previous works. | |
 
 ## Notable inspirations and techniques
@@ -88,3 +88,4 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 26 | Illustration: "Me as a musician" | [Vivien Huang](https://www.artgallery.nsw.gov.au/prizes/young-archie/2022/479/) |
 | 27 | Painting: "Svanen, nr 17, grupp IX/SUW, serie SUW/UW" | [Hilma af Klint](https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_Svanen.jpg) |
 | 28 | Petrarchan sonnet | [Wikipedia](https://en.wikipedia.org/wiki/Petrarchan_sonnet) |
+| 30 | Artwork: Output of "a multitude" for #Genuary2023 day 29 | [loackme](https://mastodon.social/@loackme@genart.social/109772127472045547) |
