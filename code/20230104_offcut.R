@@ -1,3 +1,6 @@
+# Note: Piece inspired by "Modern Grid" by mysticminimals on Society6
+# https://society6.com/art/grid7070918
+
 # Load libraries ---------------------------------------------------------------
 
 library(dplyr)
