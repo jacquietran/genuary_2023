@@ -58,13 +58,13 @@ p <- ggplot() +
     legend.position = "none",
     strip.text = element_blank(),
     panel.spacing = unit(-5, "lines"),
-    plot.margin = margin(4,-2,14,-2, unit = "cm"),
+    plot.margin = margin(3.5,-2,11.5,-2, unit = "cm"),
     plot.background = element_rect(fill = bg_colour, colour = bg_colour))
 
 # Export to file
 ggsave(
   here::here("img/ingredients/20230131_base.png"), p,
-  width = 8, height = 12, units = "in", dpi = 600, device = ragg::agg_png)
+  width = 6, height = 9, units = "in", dpi = 600, device = ragg::agg_png)
 
 # Shift to {magick} workflow ---------------------------------------------------
 
