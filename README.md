@@ -8,7 +8,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 
 ## My pieces
 
-![](https://raw.githubusercontent.com/jacquietran/genuary_2023/main/img/all_pieces_to_day_30.png)
+![](https://raw.githubusercontent.com/jacquietran/genuary_2023/main/img/all_pieces_to_day_31.png)
 
 | Day | Prompt | Link to piece |
 |---|---|---|
@@ -42,7 +42,7 @@ Check out last year's pieces here: :computer: https://github.com/jacquietran/gen
 | 28 | Generative poetry | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230128.png) |
 | 29 | Maximalism | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230129.png) |
 | 30 | Minimalism | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230130.png) |
-| 31 | Deliberately break one of your previous images, take one of your previous works and ruin it. Alternatively, remix one of your previous works. | |
+| 31 | Deliberately break one of your previous images, take one of your previous works and ruin it. Alternatively, remix one of your previous works. | [Link](https://github.com/jacquietran/genuary_2023/blob/main/img/20230131.png) |
 
 ## Notable inspirations and techniques
 
