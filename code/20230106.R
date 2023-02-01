@@ -32,112 +32,7 @@ makeStreams <- function(startpos,m=100,FUN,d=0.1){
   cbind(Re(pos),Im(pos))
 }
 
-# Output 1 ---------------------------------------------------------------------
-
-startZ <- 1.3*exp(2i * pi * seq(0,1,l=4000))
-
-set.seed(21358)
-poles <- runif(5,-1,1) + 1i*runif(5,-1,1)
-zeros <- runif(10,-1,1) + 1i*runif(10,-1,1)
-
-pos <- makeStreams(startZ,m=1000,FUN=flowFunction,d=0.004)
-
-png(
-  here::here("img/offcuts/20230106_offcut01.png"),
-  width = 6, height = 6, units = "in", res = 600)
-
-par(mar=c(0,0,0,0))
-scattermoreplot(
-  pos,size=c(2000,2000), xlim=c(-2,2), ylim=c(-2,2), asp=1, axes = FALSE,
-  xlab = NA, ylab = NA, col=hsv(0,0,0))
-
-dev.off()
-
-# Output 2 ---------------------------------------------------------------------
-
-startZ <- 0.7*exp(2i * pi * seq(0,1,l=4000))
-
-set.seed(13582)
-poles <- runif(5,-1,1) + 1i*runif(5,-1,1)
-zeros <- runif(10,-1,1) + 1i*runif(10,-1,1)
-
-pos <- makeStreams(startZ,m=2000,FUN=flowFunction,d=0.008)
-
-png(
-  here::here("img/offcuts/20230106_offcut02.png"),
-  width = 6, height = 6, units = "in", res = 600)
-
-par(mar=c(0,0,0,0))
-scattermoreplot(
-  pos,size=c(2000,2000), xlim=c(-1,1), ylim=c(-1,1), asp=1, axes = FALSE,
-  xlab = NA, ylab = NA, col=hsv(0,0,0))
-
-dev.off()
-
-# Output 3 ---------------------------------------------------------------------
-
-startZ <- 0.6*exp(2i * pi * seq(0,1,l=300))
-
-set.seed(35821)
-poles <- runif(5,-1,1) + 1i*runif(5,-1,1)
-zeros <- runif(10,-1,1) + 1i*runif(10,-1,1)
-
-pos <- makeStreams(startZ,m=1000,FUN=flowFunction,d=0.002)
-
-png(
-  here::here("img/offcuts/20230106_offcut03.png"),
-  width = 6, height = 6, units = "in", res = 600)
-
-par(mar=c(0,0,0,0))
-scattermoreplot(
-  pos,size=c(1000,1000), xlim=c(-1,1), ylim=c(-1,1), asp=1, axes = FALSE,
-  xlab = NA, ylab = NA, col=hsv(0,0,0))
-
-dev.off()
-
-# Output 3 ---------------------------------------------------------------------
-
-startZ <- 0.2*exp(2i * pi * seq(0,1,l=300))
-
-set.seed(58213)
-poles <- runif(10,-1,1) + 1i*runif(10,-1,1)
-zeros <- runif(20,-1,1) + 1i*runif(20,-1,1)
-
-pos <- makeStreams(startZ,m=1000,FUN=flowFunction,d=0.01)
-
-png(
-  here::here("img/offcuts/20230106_offcut04.png"),
-  width = 6, height = 6, units = "in", res = 600)
-
-par(mar=c(0,0,0,0))
-scattermoreplot(
-  pos,size=c(2000,2000), xlim=c(-1,1), ylim=c(-1,1), asp=1, axes = FALSE,
-  xlab = NA, ylab = NA, col=hsv(0,0,0))
-
-dev.off()
-
-# Output 4 ---------------------------------------------------------------------
-
-startZ <- 1.7*exp(2i * pi * seq(0,1,l=4000))
-
-set.seed(82135)
-poles <- runif(10,-1,1) + 1i*runif(10,-1,1)
-zeros <- runif(20,-1,1) + 1i*runif(20,-1,1)
-
-pos <- makeStreams(startZ,m=2000,FUN=flowFunction,d=0.008)
-
-png(
-  here::here("img/offcuts/20230106_offcut04.png"),
-  width = 6, height = 6, units = "in", res = 600)
-
-par(mar=c(0,0,0,0))
-scattermoreplot(
-  pos,size=c(2000,2000), xlim=c(-2,2), ylim=c(-2,2), asp=1, axes = FALSE,
-  xlab = NA, ylab = NA, col=hsv(0,0,0))
-
-dev.off()
-
-# Output 5 ---------------------------------------------------------------------
+# Create data ------------------------------------------------------------------
 
 startZ <- 1.1*exp(2i * pi * seq(0,1,l=10000))
 
@@ -147,6 +42,7 @@ zeros <- runif(5,-1,1) + 1i*runif(5,-1,1)
 
 pos <- makeStreams(startZ,m=1000,FUN=flowFunction,d=0.015)
 
+# Build plot and save to file
 png(
   here::here("img/20230106.png"),
   width = 10, height = 10, units = "in", res = 600)
